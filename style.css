@@ -23,6 +23,7 @@ nav{
     height: 500px;
     background-color: white;
     width: 100%;
+    display: flex;
 }
 
 footer{
@@ -31,10 +32,37 @@ footer{
     height: 100px;
 }
 
+#sidebar{
+    background-color: blueviolet;
+    display: none;
+    height: 100%;
+}
+
+#inner-container{
+    background-color: chartreuse;
+    height: 100%;
+}
+
+
+
 @media only screen and (min-width: 421px){
     body{
         background-color:antiquewhite;
     }
+
+    #sidebar{
+        background-color: blueviolet;
+        display: inline;
+        height: 100%;
+        width: 20%;
+    }
+    
+    #inner-container{
+        background-color: chartreuse;
+        height: 100%;
+        width: 80%;
+    }
+    
 }
 
 @media only screen and (min-width: 724px){
