@@ -17,7 +17,7 @@ x = "john";
 const name = "Logan";
 
 // unable to change the name value to roman
-name = "roman"
+// name = "roman"
 
 // declaration of age
 let age;
