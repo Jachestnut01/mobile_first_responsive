@@ -27,6 +27,8 @@ if( b === y ){
     console.log("if b == y", b === y)
 }
 //else does not have prentices 
+// double equal sign test for equal values
+// triple tests for equal values and equal data types
 else{
     console.log("b did not equal y", b === y)
 }
